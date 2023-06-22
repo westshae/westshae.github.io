@@ -1,16 +1,13 @@
-  <div class="container">
-    <div class="sidebar-container">
-      <a><button class="navlink" (click)="scroll(introduction)">Introduction</button></a>
-      <a><button class="navlink">Authentication</button></a>
-    </div>
-    <div class="content">
-      <div class="page-container">
-        <div class="page-card">
-          <h2 #introduction>Title</h2>
-          <p>
-            Title
-          </p>
-        </div>
+<div class="container">
+  <div class="sidebar-container">
+    <a><button class="navlink" (click)="scroll(introduction)">Introduction</button></a>
+  </div>
+  <div class="content">
+    <div class="page-container">
+      <div #introduction class="page-card">
+        <h2>Title</h2>
+        <p>Title</p>
       </div>
     </div>
-  </div>  
+  </div>
+</div>
